@@ -1,12 +1,5 @@
-﻿This Solidity smart contract implements a basic token system called MyToken. It allows minting and burning tokens, along with maintaining token balances for addresses.
+This Solidity smart contract project implements a token system named MyToken, allowing for token creation (minting) and destruction (burning), while also keeping track of token balances for addresses.
 
-   - The contract defines public variables `tokenName`, `tokenAbbrv`, and `totalSupply` to store details about the token.
-   - The contract defines a mapping `balances` to store token balances for addresses.
-   - The contract provides a `mint` function to create new tokens and assign them to a specific address.
-   - The contract includes a `burn` function to destroy tokens and reduce both the total supply and the balance of a specific address.
-   - The `burn` function checks if the sender's balance is sufficient before burning tokens.
+The contract features public variables such as tokenName, tokenAbbrv, and totalSupply to store token details, along with a mapping called balances to manage token balances for addresses.
 
-1. Deploy the `MyToken` contract to a supported blockchain network.
-2. Interact with the contract using a compatible Ethereum wallet or development environment.
-3. Use the `mint` function to create new tokens and assign them to specific addresses.
-4. Use the `burn` function to destroy tokens and reduce both the total supply and the balance of specific addresses.
+It provides a mint function for creating new tokens and assigning them to designated addresses. Additionally, there's a burn function to eliminate tokens, reducing both the total supply and the balance of a specific address.
